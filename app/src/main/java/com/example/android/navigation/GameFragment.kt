@@ -124,6 +124,7 @@ class GameFragment : Fragment() {
         answers = currentQuestion.answers.toMutableList()
         // and shuffle them
         answers.shuffle()
-        (activity as AppCompatActivity).supportActionBar?.title = getString(R.string.title_android_trivia_question, questionIndex + 1, numQuestions)
+        (activity as AppCompatActivity).supportActionBar?.title = getString(R.string.
+        title_android_trivia_question, questionIndex + 1, numQuestions)
     }
 }
